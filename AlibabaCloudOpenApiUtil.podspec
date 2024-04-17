@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AlibabaCloudOpenApiUtil"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.license      = "Apache 2.0"
   spec.summary      = "AlibabaCloud OpenAPI Util SDK"
-  spec.homepage     = "https://github.com/alibabacloud-sdk-swift/openapi-util" 
+  spec.homepage     = "https://github.com/huangqingchao/openapi-util" 
   spec.author       = { "Alibaba Cloud SDK" => "sdk-team@alibabacloud.com" }
 
-  spec.source       = { :git => spec.homepage + '.git', :tag => spec.version }
+  spec.source       = { :git => spec.homepage + '.git' }
   spec.source_files = 'Sources/**/*.swift'
 
   spec.ios.framework   = 'Foundation'
